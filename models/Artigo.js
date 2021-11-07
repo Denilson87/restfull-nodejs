@@ -6,8 +6,19 @@ const Artigo = new mongoose.Schema({
         type: String,
         required: true
     },
-
-    conteudo: {
+    autor: {
+        type: String,
+        required: true
+    },
+    edicao: {
+        type: String,
+        required: true
+    },
+    categoria: {
+        type: String,
+        required: true
+    },
+    lingua: {
         type: String,
         required: true
     }
