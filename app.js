@@ -17,7 +17,7 @@ app.use((req, res, next)=>{
     next();
 });
 
-mongoose.connect('mongodb://localhost/celke', {
+mongoose.connect('mongodb://localhost/books', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
